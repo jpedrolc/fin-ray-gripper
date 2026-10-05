@@ -1,6 +1,6 @@
 # Garra Fin Ray — Escopo técnico
 
-Síntese do documento de projeto de 12/04/2026 e da atualização de status de 29/08/2026 no Notion. O projeto está pausado; as partes descritas abaixo ainda precisam ser construídas e testadas.
+Projeto pausado desde abril de 2026. A arquitetura está documentada; hardware, firmware, CAD final e ensaios permanecem pendentes.
 
 ## Primeiro experimento
 
@@ -10,7 +10,7 @@ O primeiro ensaio deve comprovar comando PWM e abertura/fechamento em bancada, s
 
 ## Mecânica
 
-O planejamento propõe dedos em TPU 95A e estrutura rígida em PETG/PLA. Os nomes de arquivos STL no documento original são entregáveis previstos; não há CAD anexado a este repositório.
+A proposta usa dedos em TPU 95A e estrutura rígida em PETG/PLA. O CAD final ainda precisa ser desenvolvido.
 
 A geometria, transmissão do servo, força de apreensão, desgaste e tolerância ao erro precisam ser avaliados experimentalmente. O valor de ±30 mm do planejamento não é uma tolerância medida.
 
@@ -20,7 +20,7 @@ A proposta futura usa câmera USB conectada ao PC, OpenCV para segmentação por
 
 Uma máquina de estados organizaria percepção e apreensão. A movimentação até uma área de destino exige uma mecânica de posicionamento ainda não especificada. Um único servo de fechamento não comprova um sistema completo de pick-and-place.
 
-Não há sensor de força definido para o primeiro kit. Portanto, feedback de força e controle fechado de apreensão não devem ser tratados como implementados.
+O primeiro kit não inclui sensor de força definido; controle fechado de força fica fora do escopo inicial.
 
 ## Validação pendente
 
@@ -29,8 +29,4 @@ Não há sensor de força definido para o primeiro kit. Portanto, feedback de fo
 - Verificar estabilidade elétrica durante acionamento do servo.
 - Avaliar visão e comunicação separadamente antes da integração.
 
-As metas do documento original — sucesso acima de 90%, ciclo abaixo de 30 s e latência abaixo de 500 ms — continuam sem medições publicadas.
-
-## Limite da apresentação
-
-O projeto aparece no acervo de robótica do autor. Não há confirmação de vínculo institucional específico desta garra com o FATA; por isso o nome do repositório não usa esse vínculo como atributo do projeto.
+Sucesso acima de 90%, ciclo abaixo de 30 s e latência abaixo de 500 ms são metas propostas, ainda sem medições. O escopo e as condições de cada métrica precisam ser definidos antes dos ensaios.

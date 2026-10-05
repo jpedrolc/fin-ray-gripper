@@ -40,9 +40,9 @@ A visão seria processada no PC; o ESP32 controlaria o servo. A mecânica necess
 
 **Já documentado:** conceito, arquitetura inicial, componentes sugeridos e etapas de desenvolvimento.
 
-**Ainda pendente:** aquisição de componentes, fabricação, firmware, pipeline de visão e ensaios. Não há código, CAD, fotos de montagem ou resultados experimentais publicados aqui.
+**Projeto pausado desde abril de 2026.** Hardware e firmware ainda não foram desenvolvidos.
 
-A página mais recente do projeto no Notion, de 29/08/2026, registra o trabalho **parado desde 12/04**, com documentação preparada e hardware/firmware não desenvolvidos. Essa atualização prevalece sobre o texto antigo que anunciava “fase de prototipagem”.
+**Ainda pendente:** aquisição de componentes, CAD final, fabricação, firmware, pipeline de visão e ensaios. Não há implementação física confirmada ou resultados experimentais publicados.
 
 Taxa de sucesso, tempo de ciclo e tolerância de posicionamento são metas de estudo; não são resultados medidos.
 
